@@ -1,5 +1,5 @@
 # Financial-News-Event-Visualizer-MQL-
-This project is a custom-built indicator for MetaTrader (MQL4/MQL5) that automatically parses financial news data from an external Excel/CSV file and plots key events on a financial chart. The indicator allows traders to visualize upcoming economic events in real time, with customizable line styles (color, width, and type) to enhance readability.
+This project is a custom-built indicator for MetaTrader (MQL5) that automatically parses financial news data from an external Excel/CSV file and plots key events on a financial chart. The indicator allows traders to visualize upcoming economic events in real time, with customizable line styles (color, width, and type) to enhance readability.
 
 Key Features:
 Excel/CSV File Parsing: Automatically reads and processes structured data (news event names, times, and descriptions) from an external file.
@@ -23,10 +23,10 @@ This project showcases core software engineering skills like file management, ob
 
 How to Run:
 
-Place the NewsEventIndicator.mq4 file into the Indicators folder of your MetaTrader platform.
+Place the News Indicator.mq5 file into the Indicators folder of your MetaTrader platform.
 
 Import or link your financial news data in the form of an Excel/CSV file in the same format as the example file provided in this repository.
 
 Place the CSV file in the Common/Files/ directory inside a folder named 'News Data'
 
-In the MetaTrader 4 Terminal, type the name of the file and customize visualization options through the indicator’s settings to suit your trading style.
+In the MetaTrader 5 Terminal, type the name of the file and customize visualization options through the indicator’s settings to suit your trading style.
